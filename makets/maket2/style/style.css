@@ -119,12 +119,24 @@ div[class="services"] > h2{
 
 }
 
-div[class="book-buyers"] > h2{
-    margin-left: 484px;
-    margin-right: 469px;
+.buyers-and-head{
+    display: flex;
+    flex-direction: column;
+
 }
 
-div[class="book-buyers"] > table{
-    margin-left: 60px;
-    border-spacing: 32px 40px;
+.buyers-header{
+    margin-left: 484px;
+    margin-right: 469px;
+    padding-bottom: 67.5px;
+}
+
+.book-buyers{
+    margin-left: 73px;
+    max-width: 1137px;
+    max-height: 659px;
+    display: grid;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
